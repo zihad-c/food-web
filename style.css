@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 h1{
     font-size: 40px;
-    padding-right: 10%;
+    padding-right: 25%;
     text-transform: capitalize;
 }
 h2{
@@ -22,7 +22,7 @@ a{
     background-color: orangered;
     border-radius: 20px;
 }
-.stop{
+.special{
     color: orangered;
 }
 .half{
@@ -68,7 +68,10 @@ section{
 }
 #recipy .heading{
     text-align: center;
-    padding: 0 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #recipy .flex{
     margin-left: 5%;
@@ -85,7 +88,7 @@ section{
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 25px;
-    box-shadow: 10px 10px 30px #ddd;
+    box-shadow: 10px 10px 30px rgba(172, 161, 161, 0.973);
 }
 .recipy-item img{
     width: 100%;
@@ -129,3 +132,17 @@ section{
 }
 
 /* footer part starts*/
+footer{
+    background-color: rgb(13, 11, 15);
+    padding: 50px 0;
+}
+footer h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 73, 73);
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    padding-left: 10%;
+}
