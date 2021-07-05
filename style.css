@@ -13,7 +13,7 @@ h2{
 p{
     font-size: 20px;
     padding-right: 10%;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 }
 a{
     text-decoration: none;
@@ -59,3 +59,73 @@ section{
 }
 
 /* third section starts */
+#recipy{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#recipy h2{
+    text-align: center;
+}
+#recipy .heading{
+    text-align: center;
+    padding: 0 20%;
+}
+#recipy .flex{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recipy-item{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px #ddd;
+}
+.recipy-item img{
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+}
+.recipy-item h3{
+    text-align: left;
+}
+.recipy-item p{
+    text-align: left;
+}
+
+/* fourth section starts */
+
+#social-media{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px #ddd;
+}
+.social{
+    display: flex;
+    margin: 0 auto;
+}
+.social-media-item{
+    width: 33.33%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+.social-media-item h2{
+    padding-left: 100px;
+}
+.social-media-item p{
+    padding-left: 100px;
+}
+
+/* footer part starts*/
