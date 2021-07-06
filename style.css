@@ -3,8 +3,10 @@ body{
     font-family: 'Lato', sans-serif;
 }
 h1{
-    font-size: 42px;
-    padding-right: 25%;
+    font-size: 44px;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 10px;
     text-transform: capitalize;
 }
 h2{
@@ -18,7 +20,7 @@ p{
 a{
     text-decoration: none;
     color: #fff;
-    padding: 10px 40px;
+    padding: 15px 40px;
     background-color: orangered;
     border-radius: 20px;
 }
@@ -27,18 +29,21 @@ a{
 }
 .half{
     width: 50%;
-    margin: 0 auto;
+    margin: 0 50px;
     padding-left: 5%;
 }
 .half img{
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
 }
 .flex{
     display: flex;
 }
 section{
     margin: 100px 0;
+}
+#top-banner p{
+    padding-bottom: 30px;
 }
 
 /* second section starts */
