@@ -3,7 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 42px;
     padding-right: 25%;
     text-transform: capitalize;
 }
@@ -32,13 +32,13 @@ a{
 }
 .half img{
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
 }
 .flex{
     display: flex;
 }
 section{
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 /* second section starts */
@@ -59,10 +59,7 @@ section{
 }
 
 /* third section starts */
-#recipy{
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
+
 #recipy h2{
     text-align: center;
 }
@@ -126,6 +123,8 @@ section{
 }
 .social-media-item h2{
     padding-left: 100px;
+    font-weight: 700;
+    font-size: 40px;
 }
 .social-media-item p{
     padding-left: 100px;
